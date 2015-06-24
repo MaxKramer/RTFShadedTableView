@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'RTFShadedTableView_Example', :exclusive => true do
+  pod "RTFShadedTableView", :path => "../"
+end
+
+target 'RTFShadedTableView_Tests', :exclusive => true do
+  pod "RTFShadedTableView", :path => "../"
+
+  
+end
