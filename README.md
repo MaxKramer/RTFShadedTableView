@@ -4,6 +4,12 @@ Like Clear, the to-do list manager for iOS, RTFShadedTableView creates consecuti
 
 ![](https://raw.githubusercontent.com/MaxKramer/RTFShadedTableView/master/Screenshot.png)
 
+### Installation
+
+Install via Cocoapods:
+
+    pod 'RTFShadedTableView'
+
 ### Usage
 
 	// Import the category:
