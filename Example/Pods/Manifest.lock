@@ -1,0 +1,14 @@
+PODS:
+  - RTFShadedTableView (0.1.0)
+
+DEPENDENCIES:
+  - RTFShadedTableView (from `../`)
+
+EXTERNAL SOURCES:
+  RTFShadedTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RTFShadedTableView: db2f4cd5500b7de77404ee32b147f247c904da43
+
+COCOAPODS: 0.37.2

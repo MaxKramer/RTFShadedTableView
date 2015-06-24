@@ -1,29 +1,27 @@
 # RTFShadedTableView
 
-[![CI Status](http://img.shields.io/travis/Max Kramer/RTFShadedTableView.svg?style=flat)](https://travis-ci.org/Max Kramer/RTFShadedTableView)
-[![Version](https://img.shields.io/cocoapods/v/RTFShadedTableView.svg?style=flat)](http://cocoapods.org/pods/RTFShadedTableView)
-[![License](https://img.shields.io/cocoapods/l/RTFShadedTableView.svg?style=flat)](http://cocoapods.org/pods/RTFShadedTableView)
-[![Platform](https://img.shields.io/cocoapods/p/RTFShadedTableView.svg?style=flat)](http://cocoapods.org/pods/RTFShadedTableView)
+Like Clear, the to-do list manager for iOS, RTFShadedTableView creates consecutively shaded UITableViewCell background colors.
 
-## Usage
+![](https://raw.githubusercontent.com/MaxKramer/RTFShadedTableView/master/Screenshot.png)
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+### Usage
 
-## Requirements
+	// Import the category:
+	#import "UITableView+RTFShadedTableView.h"
+	
+	...
+	
+	// Set the to and from background colours
+	[self.tableView setCellToBackgroundColor:[UIColor greenColor]];
+    [self.tableView setCellFromBackgroundColor:[UIColor orangeColor]];
+    
+    // Set the cell's background colours to the shade
+    - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+        ...
 
-## Installation
+        UIColor *color = [self.tableView ackgroundForCellAtIndexPath:indexPath];
+        [cell setBackgroundColor:color];
 
-RTFShadedTableView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "RTFShadedTableView"
-```
-
-## Author
-
-Max Kramer, max@maxkramer.co
-
-## License
-
-RTFShadedTableView is available under the MIT license. See the LICENSE file for more info.
+        ...
+    }

@@ -7,6 +7,7 @@
 //
 
 #import "RTFViewController.h"
+#import "UITableView+RTFShadedTableView.h"
 
 @interface RTFViewController ()
 
@@ -14,16 +15,31 @@
 
 @implementation RTFViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
+    [self.tableView setSeparatorColor:[UIColor clearColor]];
+    [self.tableView setCellToBackgroundColor:[UIColor greenColor]];
+    [self.tableView setCellFromBackgroundColor:[UIColor orangeColor]];
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - Table View
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 30;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    
+    UIColor *color = [self.tableView backgroundForCellAtIndexPath:indexPath];
+    [cell setBackgroundColor:color];
+    [cell.textLabel setText:[NSString stringWithFormat:@"Row %ld", indexPath.row]];
+    
+    return cell;
 }
 
 @end

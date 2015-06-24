@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_RTFShadedTableView_Tests_RTFShadedTableView : NSObject
+@end
+@implementation PodsDummy_Pods_RTFShadedTableView_Tests_RTFShadedTableView
+@end

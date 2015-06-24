@@ -10,19 +10,16 @@
 Pod::Spec.new do |s|
   s.name             = "RTFShadedTableView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of RTFShadedTableView."
+  s.summary          = "Clear (app) like category for UITableView providing consecutively shaded cell backgrounds"
   s.description      = <<-DESC
-                       An optional longer description of RTFShadedTableView
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Like Clear, the to-do list manager for iOS, RTFShadedTableView creates consecutively shaded UITableViewCell background colors.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/RTFShadedTableView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/MaxKramer/RTFShadedTableView"
+  s.screenshots        = "https://raw.githubusercontent.com/MaxKramer/RTFShadedTableView/master/Screenshot.png"
   s.license          = 'MIT'
   s.author           = { "Max Kramer" => "max@maxkramer.co" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/RTFShadedTableView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/MaxKramer>/RTFShadedTableView.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/maxkramer'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -31,8 +28,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'RTFShadedTableView' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

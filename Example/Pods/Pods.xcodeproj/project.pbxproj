@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E9A3232DF2B84669E20E446 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0546EB3BCBD79B159770878 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EBDA9D1BA84288B2C1EA193 /* Pods-RTFShadedTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DAF8FDF947B3D58A8F2EAA /* Pods-RTFShadedTableView_Example-dummy.m */; };
+		284F443F1D3C8A6C3289BC9D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C39A930919D9F22815C747 /* ReplaceMe.m */; };
+		42926CA759E7FF1492553602 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD19072EB0F5C0494F21CC /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-dummy.m */; };
+		43D91215F2E9A27F4E50E83E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAFB189CB909AC9CE311B8A /* Foundation.framework */; };
+		4CBF6E1E444860C87001EE58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAFB189CB909AC9CE311B8A /* Foundation.framework */; };
+		6365627486B2A37118E3F28F /* RTFShadedTableView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D09BA81A86C5A7482D7FF2E /* RTFShadedTableView.bundle */; };
+		A0CBCAC74DE5F08C9F355736 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECE1EEC91FCCC4AE3697541 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A64AC4111BEB64273EFF6CF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAFB189CB909AC9CE311B8A /* Foundation.framework */; };
+		E1DD59419F175AF54891E399 /* RTFShadedTableView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D21A5393145DD982BDC3A56B /* RTFShadedTableView.bundle */; };
+		E1FC11ABE157357F179BDE79 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EEEEFDC557725B1A1E716 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-dummy.m */; };
+		E5B7385EE28F953CC9EE67D0 /* Pods-RTFShadedTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 857C55CCE6CBDBAC8DCE628C /* Pods-RTFShadedTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7B4DF20EACF17175C6F660C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C39A930919D9F22815C747 /* ReplaceMe.m */; };
+		EDECD8F03CE2BEE1C4CD8291 /* Pods-RTFShadedTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA1465C7F3612B6952D5858 /* Pods-RTFShadedTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF51DBEE8DE25F74A9209424 /* Pods-RTFShadedTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66556E347B0134B7A2290382 /* Pods-RTFShadedTableView_Tests-dummy.m */; };
+		F31C7F77F0123C5E322D8B23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAFB189CB909AC9CE311B8A /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5676CAD0A08C2F8AF8AEAAA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CCE9B1199B4F9C96CF5291C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EA09E8A400D0B0CBFCE0157;
+			remoteInfo = "Pods-RTFShadedTableView_Example-RTFShadedTableView-RTFShadedTableView";
+		};
+		B95C02C47EFE73E3749AE9A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CCE9B1199B4F9C96CF5291C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26617A2D977B4847C15FF042;
+			remoteInfo = "Pods-RTFShadedTableView_Example-RTFShadedTableView";
+		};
+		E39330B347F4A3F35EFC133F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CCE9B1199B4F9C96CF5291C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F27CC260799B552CEE317A8;
+			remoteInfo = "Pods-RTFShadedTableView_Tests-RTFShadedTableView-RTFShadedTableView";
+		};
+		E55BCDF259A722017954FDE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CCE9B1199B4F9C96CF5291C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4921214DBAFE54033A21BCA;
+			remoteInfo = "Pods-RTFShadedTableView_Tests-RTFShadedTableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00540A3A77B9532991E0F8ED /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-RTFShadedTableView_Tests-RTFShadedTableView-prefix.pch"; path = "../Pods-RTFShadedTableView_Tests-RTFShadedTableView/Pods-RTFShadedTableView_Tests-RTFShadedTableView-prefix.pch"; sourceTree = "<group>"; };
+		01D03FA66076CA71754C5686 /* Pods-RTFShadedTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTFShadedTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02B84BA01CF8DA9C2B320BF4 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTFShadedTableView_Tests-RTFShadedTableView-Private.xcconfig"; path = "../Pods-RTFShadedTableView_Tests-RTFShadedTableView/Pods-RTFShadedTableView_Tests-RTFShadedTableView-Private.xcconfig"; sourceTree = "<group>"; };
+		0B90F0480248414C2B451607 /* Pods-RTFShadedTableView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTFShadedTableView_Example-resources.sh"; sourceTree = "<group>"; };
+		0F70B1E4920462464FA1ECBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		103CD0D31AA2BEE5DC882319 /* Pods_RTFShadedTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTFShadedTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		154EEEEFDC557725B1A1E716 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTFShadedTableView_Example-RTFShadedTableView-dummy.m"; sourceTree = "<group>"; };
+		19E0D0004C0613696CB55206 /* Pods-RTFShadedTableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTFShadedTableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1D09BA81A86C5A7482D7FF2E /* RTFShadedTableView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTFShadedTableView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2134E3323817B1CE1D7B6D22 /* Pods-RTFShadedTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTFShadedTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F85FB98670B4D6000DD606C /* Pods-RTFShadedTableView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTFShadedTableView_Tests-resources.sh"; sourceTree = "<group>"; };
+		310B0FA7C3A932477EF11A37 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTFShadedTableView_Example-RTFShadedTableView-Private.xcconfig"; sourceTree = "<group>"; };
+		3A482BD9E1372A458E63093A /* Pods-RTFShadedTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTFShadedTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		40BEB028E2918727702C0B07 /* Pods-RTFShadedTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTFShadedTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		41F83646FD4BB3A17E7AFD1D /* Pods-RTFShadedTableView_Example-RTFShadedTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTFShadedTableView_Example-RTFShadedTableView.xcconfig"; sourceTree = "<group>"; };
+		4411B3E1603F1BBE4988B888 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-RTFShadedTableView_Tests-RTFShadedTableView/Info.plist"; sourceTree = "<group>"; };
+		4BAFB189CB909AC9CE311B8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4D8C882E655750C63CB13935 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573BFD80D68E7154A7A24E63 /* Pods-RTFShadedTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RTFShadedTableView_Tests.modulemap"; sourceTree = "<group>"; };
+		5FBD19072EB0F5C0494F21CC /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-RTFShadedTableView_Tests-RTFShadedTableView-dummy.m"; path = "../Pods-RTFShadedTableView_Tests-RTFShadedTableView/Pods-RTFShadedTableView_Tests-RTFShadedTableView-dummy.m"; sourceTree = "<group>"; };
+		6587011660183F43D40E956A /* Pods_RTFShadedTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTFShadedTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66556E347B0134B7A2290382 /* Pods-RTFShadedTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTFShadedTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		67B0FB154858A12B3E489EDE /* Pods-RTFShadedTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTFShadedTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6ECE1EEC91FCCC4AE3697541 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTFShadedTableView_Example-RTFShadedTableView-umbrella.h"; sourceTree = "<group>"; };
+		857C55CCE6CBDBAC8DCE628C /* Pods-RTFShadedTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTFShadedTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		85C446581B1D0332474FC041 /* Pods-RTFShadedTableView_Example-RTFShadedTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RTFShadedTableView_Example-RTFShadedTableView.modulemap"; sourceTree = "<group>"; };
+		89C39A930919D9F22815C747 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		9C4792177FC61BAF56B07D19 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTFShadedTableView_Example-RTFShadedTableView-prefix.pch"; sourceTree = "<group>"; };
+		A0546EB3BCBD79B159770878 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-RTFShadedTableView_Tests-RTFShadedTableView-umbrella.h"; path = "../Pods-RTFShadedTableView_Tests-RTFShadedTableView/Pods-RTFShadedTableView_Tests-RTFShadedTableView-umbrella.h"; sourceTree = "<group>"; };
+		A2A30C2504F8CD5EF3B85010 /* RTFShadedTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTFShadedTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E0F3DC3A36722E3462B275 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA223B2ED509C77211C8B906 /* Pods-RTFShadedTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTFShadedTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B4CD37D547D26F9D7F06FF67 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-RTFShadedTableView_Tests-RTFShadedTableView.modulemap"; path = "../Pods-RTFShadedTableView_Tests-RTFShadedTableView/Pods-RTFShadedTableView_Tests-RTFShadedTableView.modulemap"; sourceTree = "<group>"; };
+		B936C525AB07668309E7FAA6 /* Pods-RTFShadedTableView_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTFShadedTableView_Example-environment.h"; sourceTree = "<group>"; };
+		BCA1465C7F3612B6952D5858 /* Pods-RTFShadedTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTFShadedTableView_Example-umbrella.h"; sourceTree = "<group>"; };
+		C2CF85EFF866B9AFB47E67B2 /* Pods-RTFShadedTableView_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTFShadedTableView_Tests-environment.h"; sourceTree = "<group>"; };
+		C3F8B644FD10878E58A79296 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTFShadedTableView_Tests-RTFShadedTableView.xcconfig"; path = "../Pods-RTFShadedTableView_Tests-RTFShadedTableView/Pods-RTFShadedTableView_Tests-RTFShadedTableView.xcconfig"; sourceTree = "<group>"; };
+		C7DAF8FDF947B3D58A8F2EAA /* Pods-RTFShadedTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTFShadedTableView_Example-dummy.m"; sourceTree = "<group>"; };
+		CCA715A66D68B25FCEE6E22C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD92CAEB434166C46CB84EF4 /* RTFShadedTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTFShadedTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21A5393145DD982BDC3A56B /* RTFShadedTableView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTFShadedTableView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D258DD20AC647721A762D4BD /* Pods-RTFShadedTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTFShadedTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D6479EC976C659F9622D7D98 /* Pods-RTFShadedTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTFShadedTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FC2D30EC169BA55313868134 /* Pods-RTFShadedTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RTFShadedTableView_Example.modulemap"; sourceTree = "<group>"; };
+		FC2E4FC7E20DEBE901D06441 /* Pods-RTFShadedTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTFShadedTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3584818D72A93851DEEC4D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D91215F2E9A27F4E50E83E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA7CC09A01D4A581C32064A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBF6E1E444860C87001EE58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6477C259285926AE5903FDA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC69D65B5314DAE73819D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3395F36FF77ADE607D4CEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31C7F77F0123C5E322D8B23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D7F334D2F6BD3BA596A24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64AC4111BEB64273EFF6CF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E5B293F1FACD0E8B6AC507 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				89C39A930919D9F22815C747 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2064F950497924E32D6AEC92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3D6EC0F73D373FFEA120E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25612ABFD204F2A2FAC1B91A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				678C54D7EB4F33FE174602B6 /* Pods-RTFShadedTableView_Example */,
+				F3BF5A4545ED937947A403ED /* Pods-RTFShadedTableView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5AE3D6EC0F73D373FFEA120E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4BAFB189CB909AC9CE311B8A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		678C54D7EB4F33FE174602B6 /* Pods-RTFShadedTableView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0F70B1E4920462464FA1ECBF /* Info.plist */,
+				FC2D30EC169BA55313868134 /* Pods-RTFShadedTableView_Example.modulemap */,
+				01D03FA66076CA71754C5686 /* Pods-RTFShadedTableView_Example-acknowledgements.markdown */,
+				FC2E4FC7E20DEBE901D06441 /* Pods-RTFShadedTableView_Example-acknowledgements.plist */,
+				C7DAF8FDF947B3D58A8F2EAA /* Pods-RTFShadedTableView_Example-dummy.m */,
+				B936C525AB07668309E7FAA6 /* Pods-RTFShadedTableView_Example-environment.h */,
+				D258DD20AC647721A762D4BD /* Pods-RTFShadedTableView_Example-frameworks.sh */,
+				0B90F0480248414C2B451607 /* Pods-RTFShadedTableView_Example-resources.sh */,
+				BCA1465C7F3612B6952D5858 /* Pods-RTFShadedTableView_Example-umbrella.h */,
+				3A482BD9E1372A458E63093A /* Pods-RTFShadedTableView_Example.debug.xcconfig */,
+				AA223B2ED509C77211C8B906 /* Pods-RTFShadedTableView_Example.release.xcconfig */,
+			);
+			name = "Pods-RTFShadedTableView_Example";
+			path = "Target Support Files/Pods-RTFShadedTableView_Example";
+			sourceTree = "<group>";
+		};
+		A2247E2F2A4A56D211333274 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECE9C8E39C709DA32DE025EA /* RTFShadedTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B093FDA8F5395A65D68627BA = {
+			isa = PBXGroup;
+			children = (
+				A9E0F3DC3A36722E3462B275 /* Podfile */,
+				A2247E2F2A4A56D211333274 /* Development Pods */,
+				2064F950497924E32D6AEC92 /* Frameworks */,
+				D8D16D081B65D7045C80C823 /* Products */,
+				25612ABFD204F2A2FAC1B91A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B1EA4D6ABC3DB05109052F1D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D8C882E655750C63CB13935 /* Info.plist */,
+				4411B3E1603F1BBE4988B888 /* Info.plist */,
+				85C446581B1D0332474FC041 /* Pods-RTFShadedTableView_Example-RTFShadedTableView.modulemap */,
+				41F83646FD4BB3A17E7AFD1D /* Pods-RTFShadedTableView_Example-RTFShadedTableView.xcconfig */,
+				310B0FA7C3A932477EF11A37 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-Private.xcconfig */,
+				154EEEEFDC557725B1A1E716 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-dummy.m */,
+				9C4792177FC61BAF56B07D19 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-prefix.pch */,
+				6ECE1EEC91FCCC4AE3697541 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-umbrella.h */,
+				B4CD37D547D26F9D7F06FF67 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView.modulemap */,
+				C3F8B644FD10878E58A79296 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView.xcconfig */,
+				02B84BA01CF8DA9C2B320BF4 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-Private.xcconfig */,
+				5FBD19072EB0F5C0494F21CC /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-dummy.m */,
+				00540A3A77B9532991E0F8ED /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-prefix.pch */,
+				A0546EB3BCBD79B159770878 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-RTFShadedTableView_Example-RTFShadedTableView";
+			sourceTree = "<group>";
+		};
+		C3427723B829DBCA1DEAE6F5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				13E5B293F1FACD0E8B6AC507 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		D8D16D081B65D7045C80C823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				103CD0D31AA2BEE5DC882319 /* Pods_RTFShadedTableView_Example.framework */,
+				6587011660183F43D40E956A /* Pods_RTFShadedTableView_Tests.framework */,
+				1D09BA81A86C5A7482D7FF2E /* RTFShadedTableView.bundle */,
+				D21A5393145DD982BDC3A56B /* RTFShadedTableView.bundle */,
+				CD92CAEB434166C46CB84EF4 /* RTFShadedTableView.framework */,
+				A2A30C2504F8CD5EF3B85010 /* RTFShadedTableView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE9C8E39C709DA32DE025EA /* RTFShadedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				C3427723B829DBCA1DEAE6F5 /* Pod */,
+				B1EA4D6ABC3DB05109052F1D /* Support Files */,
+			);
+			name = RTFShadedTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F3BF5A4545ED937947A403ED /* Pods-RTFShadedTableView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA715A66D68B25FCEE6E22C /* Info.plist */,
+				573BFD80D68E7154A7A24E63 /* Pods-RTFShadedTableView_Tests.modulemap */,
+				40BEB028E2918727702C0B07 /* Pods-RTFShadedTableView_Tests-acknowledgements.markdown */,
+				2134E3323817B1CE1D7B6D22 /* Pods-RTFShadedTableView_Tests-acknowledgements.plist */,
+				66556E347B0134B7A2290382 /* Pods-RTFShadedTableView_Tests-dummy.m */,
+				C2CF85EFF866B9AFB47E67B2 /* Pods-RTFShadedTableView_Tests-environment.h */,
+				19E0D0004C0613696CB55206 /* Pods-RTFShadedTableView_Tests-frameworks.sh */,
+				2F85FB98670B4D6000DD606C /* Pods-RTFShadedTableView_Tests-resources.sh */,
+				857C55CCE6CBDBAC8DCE628C /* Pods-RTFShadedTableView_Tests-umbrella.h */,
+				67B0FB154858A12B3E489EDE /* Pods-RTFShadedTableView_Tests.debug.xcconfig */,
+				D6479EC976C659F9622D7D98 /* Pods-RTFShadedTableView_Tests.release.xcconfig */,
+			);
+			name = "Pods-RTFShadedTableView_Tests";
+			path = "Target Support Files/Pods-RTFShadedTableView_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		162E0D811A8DA1A8B91BF31F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CBCAC74DE5F08C9F355736 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6CC96D555B788F17EBCE7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9A3232DF2B84669E20E446 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56FD79F1A2EB4F205B20E7CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDECD8F03CE2BEE1C4CD8291 /* Pods-RTFShadedTableView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26B00FD402E7D4D7AA7532E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B7385EE28F953CC9EE67D0 /* Pods-RTFShadedTableView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26617A2D977B4847C15FF042 /* Pods-RTFShadedTableView_Example-RTFShadedTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3831A26BD812DC5C4D46BDCF /* Build configuration list for PBXNativeTarget "Pods-RTFShadedTableView_Example-RTFShadedTableView" */;
+			buildPhases = (
+				9A32E1E7D0280672A674703C /* Sources */,
+				3584818D72A93851DEEC4D03 /* Frameworks */,
+				E3160E3B8E6B5F82998C12BF /* Resources */,
+				162E0D811A8DA1A8B91BF31F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CD51A72E0FC725F757E2A49 /* PBXTargetDependency */,
+			);
+			name = "Pods-RTFShadedTableView_Example-RTFShadedTableView";
+			productName = "Pods-RTFShadedTableView_Example-RTFShadedTableView";
+			productReference = A2A30C2504F8CD5EF3B85010 /* RTFShadedTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2EA09E8A400D0B0CBFCE0157 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-RTFShadedTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0379B029CD2C3C8E8858A558 /* Build configuration list for PBXNativeTarget "Pods-RTFShadedTableView_Example-RTFShadedTableView-RTFShadedTableView" */;
+			buildPhases = (
+				E43DBD1C4551562431357B9D /* Sources */,
+				6477C259285926AE5903FDA0 /* Frameworks */,
+				10632CF0969AED5B45E52781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RTFShadedTableView_Example-RTFShadedTableView-RTFShadedTableView";
+			productName = "Pods-RTFShadedTableView_Example-RTFShadedTableView-RTFShadedTableView";
+			productReference = 1D09BA81A86C5A7482D7FF2E /* RTFShadedTableView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2F27CC260799B552CEE317A8 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-RTFShadedTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D718B2F7BD1B72BC1D2F8F2 /* Build configuration list for PBXNativeTarget "Pods-RTFShadedTableView_Tests-RTFShadedTableView-RTFShadedTableView" */;
+			buildPhases = (
+				56302C236E24D23C83439EA1 /* Sources */,
+				7FC69D65B5314DAE73819D23 /* Frameworks */,
+				4166A51ABB0C087527214584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RTFShadedTableView_Tests-RTFShadedTableView-RTFShadedTableView";
+			productName = "Pods-RTFShadedTableView_Tests-RTFShadedTableView-RTFShadedTableView";
+			productReference = D21A5393145DD982BDC3A56B /* RTFShadedTableView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8414C07DF77FD273FA1E073C /* Pods-RTFShadedTableView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA33662253C428A32F6DAE4 /* Build configuration list for PBXNativeTarget "Pods-RTFShadedTableView_Tests" */;
+			buildPhases = (
+				D82529CD0851EFA7DFD6A1B7 /* Sources */,
+				A3395F36FF77ADE607D4CEDA /* Frameworks */,
+				F26B00FD402E7D4D7AA7532E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB40A5A0742B023BC414158C /* PBXTargetDependency */,
+			);
+			name = "Pods-RTFShadedTableView_Tests";
+			productName = "Pods-RTFShadedTableView_Tests";
+			productReference = 6587011660183F43D40E956A /* Pods_RTFShadedTableView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C11CCD72C2ED6CB65970178C /* Pods-RTFShadedTableView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5E94473FEEBFEC7128C7C3 /* Build configuration list for PBXNativeTarget "Pods-RTFShadedTableView_Example" */;
+			buildPhases = (
+				1B66C78E2BB9B3E450067F3A /* Sources */,
+				B9D7F334D2F6BD3BA596A24E /* Frameworks */,
+				56FD79F1A2EB4F205B20E7CA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B0E375C2D6FAF473DF1E47F /* PBXTargetDependency */,
+			);
+			name = "Pods-RTFShadedTableView_Example";
+			productName = "Pods-RTFShadedTableView_Example";
+			productReference = 103CD0D31AA2BEE5DC882319 /* Pods_RTFShadedTableView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4921214DBAFE54033A21BCA /* Pods-RTFShadedTableView_Tests-RTFShadedTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28802C4CBFDD3CC963CB0C28 /* Build configuration list for PBXNativeTarget "Pods-RTFShadedTableView_Tests-RTFShadedTableView" */;
+			buildPhases = (
+				157A33588B694E27413DBF3E /* Sources */,
+				5FA7CC09A01D4A581C32064A /* Frameworks */,
+				36D1F6EF151667872CC13AD6 /* Resources */,
+				3F6CC96D555B788F17EBCE7A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08850854F1D13A85C469A571 /* PBXTargetDependency */,
+			);
+			name = "Pods-RTFShadedTableView_Tests-RTFShadedTableView";
+			productName = "Pods-RTFShadedTableView_Tests-RTFShadedTableView";
+			productReference = CD92CAEB434166C46CB84EF4 /* RTFShadedTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CCE9B1199B4F9C96CF5291C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 955CB46DC3A4D98647746355 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B093FDA8F5395A65D68627BA;
+			productRefGroup = D8D16D081B65D7045C80C823 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C11CCD72C2ED6CB65970178C /* Pods-RTFShadedTableView_Example */,
+				26617A2D977B4847C15FF042 /* Pods-RTFShadedTableView_Example-RTFShadedTableView */,
+				2EA09E8A400D0B0CBFCE0157 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-RTFShadedTableView */,
+				8414C07DF77FD273FA1E073C /* Pods-RTFShadedTableView_Tests */,
+				F4921214DBAFE54033A21BCA /* Pods-RTFShadedTableView_Tests-RTFShadedTableView */,
+				2F27CC260799B552CEE317A8 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-RTFShadedTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10632CF0969AED5B45E52781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D1F6EF151667872CC13AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DD59419F175AF54891E399 /* RTFShadedTableView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4166A51ABB0C087527214584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3160E3B8E6B5F82998C12BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6365627486B2A37118E3F28F /* RTFShadedTableView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		157A33588B694E27413DBF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42926CA759E7FF1492553602 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-dummy.m in Sources */,
+				E7B4DF20EACF17175C6F660C /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B66C78E2BB9B3E450067F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBDA9D1BA84288B2C1EA193 /* Pods-RTFShadedTableView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56302C236E24D23C83439EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A32E1E7D0280672A674703C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FC11ABE157357F179BDE79 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-dummy.m in Sources */,
+				284F443F1D3C8A6C3289BC9D /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82529CD0851EFA7DFD6A1B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF51DBEE8DE25F74A9209424 /* Pods-RTFShadedTableView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43DBD1C4551562431357B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08850854F1D13A85C469A571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RTFShadedTableView_Tests-RTFShadedTableView-RTFShadedTableView";
+			target = 2F27CC260799B552CEE317A8 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-RTFShadedTableView */;
+			targetProxy = E39330B347F4A3F35EFC133F /* PBXContainerItemProxy */;
+		};
+		6B0E375C2D6FAF473DF1E47F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RTFShadedTableView_Example-RTFShadedTableView";
+			target = 26617A2D977B4847C15FF042 /* Pods-RTFShadedTableView_Example-RTFShadedTableView */;
+			targetProxy = B95C02C47EFE73E3749AE9A3 /* PBXContainerItemProxy */;
+		};
+		7CD51A72E0FC725F757E2A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RTFShadedTableView_Example-RTFShadedTableView-RTFShadedTableView";
+			target = 2EA09E8A400D0B0CBFCE0157 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-RTFShadedTableView */;
+			targetProxy = 5676CAD0A08C2F8AF8AEAAA1 /* PBXContainerItemProxy */;
+		};
+		AB40A5A0742B023BC414158C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RTFShadedTableView_Tests-RTFShadedTableView";
+			target = F4921214DBAFE54033A21BCA /* Pods-RTFShadedTableView_Tests-RTFShadedTableView */;
+			targetProxy = E55BCDF259A722017954FDE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F0128276E7C2611D7E5803F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B0FB154858A12B3E489EDE /* Pods-RTFShadedTableView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RTFShadedTableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RTFShadedTableView_Tests/Pods-RTFShadedTableView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RTFShadedTableView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0FDEEBD30C048EFB1EFCEE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B84BA01CF8DA9C2B320BF4 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-RTFShadedTableView_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = RTFShadedTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1837E7669F3A37F4F37B1985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6479EC976C659F9622D7D98 /* Pods-RTFShadedTableView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RTFShadedTableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RTFShadedTableView_Tests/Pods-RTFShadedTableView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RTFShadedTableView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61931B5E4881E96F8AC9ED40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA223B2ED509C77211C8B906 /* Pods-RTFShadedTableView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RTFShadedTableView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RTFShadedTableView_Example/Pods-RTFShadedTableView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RTFShadedTableView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70EE195B67416A62F141EA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310B0FA7C3A932477EF11A37 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RTFShadedTableView_Example-RTFShadedTableView/Pods-RTFShadedTableView_Example-RTFShadedTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-RTFShadedTableView_Example-RTFShadedTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RTFShadedTableView_Example-RTFShadedTableView/Pods-RTFShadedTableView_Example-RTFShadedTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RTFShadedTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7151FA11ED3DF1361BFCA8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310B0FA7C3A932477EF11A37 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-RTFShadedTableView_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = RTFShadedTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		74B9FD58BE53AADA41C510EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CCDE032E8810B3C975F9295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B84BA01CF8DA9C2B320BF4 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RTFShadedTableView_Tests-RTFShadedTableView/Pods-RTFShadedTableView_Tests-RTFShadedTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-RTFShadedTableView_Tests-RTFShadedTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RTFShadedTableView_Tests-RTFShadedTableView/Pods-RTFShadedTableView_Tests-RTFShadedTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RTFShadedTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9831756F69E1D97594EA893E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A482BD9E1372A458E63093A /* Pods-RTFShadedTableView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RTFShadedTableView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RTFShadedTableView_Example/Pods-RTFShadedTableView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RTFShadedTableView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB84F12EEC2D87BB44C5826A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B84BA01CF8DA9C2B320BF4 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RTFShadedTableView_Tests-RTFShadedTableView/Pods-RTFShadedTableView_Tests-RTFShadedTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-RTFShadedTableView_Tests-RTFShadedTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RTFShadedTableView_Tests-RTFShadedTableView/Pods-RTFShadedTableView_Tests-RTFShadedTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RTFShadedTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CADB6D1F744B58ACC438B5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D4809FA8A80B0525BA11F853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310B0FA7C3A932477EF11A37 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-RTFShadedTableView_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = RTFShadedTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EE4766703F99F02D716E4941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310B0FA7C3A932477EF11A37 /* Pods-RTFShadedTableView_Example-RTFShadedTableView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RTFShadedTableView_Example-RTFShadedTableView/Pods-RTFShadedTableView_Example-RTFShadedTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-RTFShadedTableView_Example-RTFShadedTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RTFShadedTableView_Example-RTFShadedTableView/Pods-RTFShadedTableView_Example-RTFShadedTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RTFShadedTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC155157FFFB209FD2D8E903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B84BA01CF8DA9C2B320BF4 /* Pods-RTFShadedTableView_Tests-RTFShadedTableView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-RTFShadedTableView_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = RTFShadedTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0379B029CD2C3C8E8858A558 /* Build configuration list for PBXNativeTarget "Pods-RTFShadedTableView_Example-RTFShadedTableView-RTFShadedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7151FA11ED3DF1361BFCA8A1 /* Debug */,
+				D4809FA8A80B0525BA11F853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28802C4CBFDD3CC963CB0C28 /* Build configuration list for PBXNativeTarget "Pods-RTFShadedTableView_Tests-RTFShadedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB84F12EEC2D87BB44C5826A /* Debug */,
+				8CCDE032E8810B3C975F9295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3831A26BD812DC5C4D46BDCF /* Build configuration list for PBXNativeTarget "Pods-RTFShadedTableView_Example-RTFShadedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EE195B67416A62F141EA47 /* Debug */,
+				EE4766703F99F02D716E4941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D718B2F7BD1B72BC1D2F8F2 /* Build configuration list for PBXNativeTarget "Pods-RTFShadedTableView_Tests-RTFShadedTableView-RTFShadedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FDEEBD30C048EFB1EFCEE85 /* Debug */,
+				FC155157FFFB209FD2D8E903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5E94473FEEBFEC7128C7C3 /* Build configuration list for PBXNativeTarget "Pods-RTFShadedTableView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9831756F69E1D97594EA893E /* Debug */,
+				61931B5E4881E96F8AC9ED40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955CB46DC3A4D98647746355 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADB6D1F744B58ACC438B5CB /* Debug */,
+				74B9FD58BE53AADA41C510EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA33662253C428A32F6DAE4 /* Build configuration list for PBXNativeTarget "Pods-RTFShadedTableView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0128276E7C2611D7E5803F /* Debug */,
+				1837E7669F3A37F4F37B1985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CCE9B1199B4F9C96CF5291C /* Project object */;
+}

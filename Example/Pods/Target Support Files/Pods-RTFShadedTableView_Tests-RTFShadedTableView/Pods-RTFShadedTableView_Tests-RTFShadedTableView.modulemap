@@ -1,0 +1,6 @@
+framework module RTFShadedTableView {
+  umbrella header "Pods-RTFShadedTableView_Tests-RTFShadedTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
